@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carsten Wittmann - AI Delivery Team Lead</title>
+    <meta name="description" content="Carsten Wittmann – Brückenbauer zwischen Strategie und AI-Delivery. 32+ Jahre Erfahrung, Six Sigma Master Black Belt, TÜV-zertifizierter AI Consultant.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root{--primary:#A64D4D;--primary-hover:#8B3E3E;--primary-light:rgba(166,77,77,0.1);--secondary:#2C3E50;--accent:#E8B86D;--bg-primary:#FAFBFC;--bg-secondary:#F1F5F9;--bg-card:#FFF;--bg-dark:#1a1f2e;--bg-hero:linear-gradient(135deg,#1a1f2e 0%,#2C3E50 100%);--text-primary:#1e293b;--text-secondary:#64748b;--text-inverse:#FFF;--font:'Inter',-apple-system,sans-serif;--max-width:1200px;--nav-height:64px;--radius:12px;--radius-lg:16px;--radius-full:9999px;--shadow-sm:0 1px 2px rgba(0,0,0,0.05);--shadow-md:0 4px 6px -1px rgba(0,0,0,0.1);--shadow-lg:0 10px 15px -3px rgba(0,0,0,0.1);--shadow-xl:0 20px 25px -5px rgba(0,0,0,0.1);--transition:200ms ease}
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:var(--font);font-size:1rem;line-height:1.6;color:var(--text-primary);background:var(--bg-primary);-webkit-font-smoothing:antialiased}img{max-width:100%;height:auto;display:block}a{color:inherit;text-decoration:none}ul,ol{list-style:none}.container{max-width:var(--max-width);margin:0 auto;padding:0 1.5rem}
+        .nav{position:fixed;top:0;left:0;right:0;height:var(--nav-height);background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,0,0,0.06);z-index:1000;transition:var(--transition)}.nav.scrolled{box-shadow:var(--shadow-md)}.nav-inner{max-width:var(--max-width);margin:0 auto;padding:0 1.5rem;height:100%;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-weight:700;font-size:1.125rem;color:var(--secondary)}.nav-links{display:flex;align-items:center;gap:2rem}.nav-links a{font-size:0.875rem;font-weight:500;color:var(--text-secondary);transition:var(--transition);position:relative}.nav-links a:hover{color:var(--primary)}.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--primary);transition:var(--transition)}.nav-links a:hover::after{width:100%}.nav-contact{font-size:0.875rem;color:var(--text-secondary)}.nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:0.5rem}.nav-toggle span{width:24px;height:2px;background:var(--secondary);transition:var(--transition)}
+        .hero{min-height:100vh;background:var(--bg-hero);display:flex;align-items:center;position:relative;overflow:hidden;padding-top:var(--nav-height)}.hero-bg-image{position:absolute;top:0;right:0;width:55%;height:100%;background-image:url('https://waxxdu.de/wp-content/uploads/2026/01/carsten-wittmann-hero.png');background-size:cover;background-position:center top;opacity:0.5;mask-image:linear-gradient(to left,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);-webkit-mask-image:linear-gradient(to left,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%)}.hero-content{position:relative;z-index:1;max-width:650px;padding:4rem 1.5rem}.hero-badge{display:inline-flex;align-items:center;gap:0.5rem;background:rgba(232,184,109,0.15);color:var(--accent);padding:0.5rem 1rem;border-radius:var(--radius-full);font-size:0.875rem;font-weight:500;margin-bottom:1.5rem}.hero-name{font-size:3.5rem;font-weight:700;color:var(--text-inverse);line-height:1.1;margin-bottom:1rem}.hero-title{font-size:1.5rem;color:var(--accent);font-weight:500;margin-bottom:1.5rem}.hero-tagline{font-size:1.125rem;color:rgba(255,255,255,0.8);line-height:1.7;margin-bottom:2rem}.hero-buttons{display:flex;gap:1rem;flex-wrap:wrap}
+        .btn{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;padding:0.75rem 1.5rem;font-size:1rem;font-weight:600;border-radius:var(--radius);cursor:pointer;transition:var(--transition);border:2px solid transparent}.btn-primary{background:var(--primary);color:var(--text-inverse);border-color:var(--primary)}.btn-primary:hover{background:var(--primary-hover);border-color:var(--primary-hover);transform:translateY(-2px);box-shadow:var(--shadow-lg)}.btn-outline{background:transparent;color:var(--text-inverse);border-color:rgba(255,255,255,0.3)}.btn-outline:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.5)}
+        .profile{padding:5rem 0;background:var(--bg-primary)}.profile-grid{display:grid;grid-template-columns:1fr 300px;gap:3rem;align-items:start}.profile-content h2{font-size:2rem;font-weight:700;color:var(--secondary);margin-bottom:0.5rem}.section-line{width:60px;height:4px;background:var(--primary);border-radius:2px;margin-bottom:1.5rem}.profile-lead{font-size:1.125rem;color:var(--text-primary);margin-bottom:1rem}.profile-lead strong{color:var(--secondary)}.profile-text{color:var(--text-secondary);margin-bottom:1.5rem}.profile-meta{display:flex;flex-wrap:wrap;gap:1.5rem;font-size:0.875rem}.profile-meta-item{display:flex;align-items:center;gap:0.5rem}.profile-meta-item strong{color:var(--text-primary)}.profile-image img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:var(--radius-lg);box-shadow:var(--shadow-xl)}
+        .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin-top:3rem}.stat-card{background:var(--bg-card);border-radius:var(--radius-lg);padding:1.5rem;text-align:center;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,0.04);transition:var(--transition)}.stat-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}.stat-value{font-size:2.5rem;font-weight:700;color:var(--primary);display:block}.stat-label{font-size:0.875rem;color:var(--text-secondary);margin-top:0.5rem;display:block}
+        .match{padding:5rem 0;background:var(--bg-secondary)}.section-header{max-width:600px;margin-bottom:3rem}.section-header h2{font-size:2rem;font-weight:700;color:var(--secondary);margin-bottom:0.5rem}.section-header p{color:var(--text-secondary);font-size:1.125rem}.match-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}.match-card{background:var(--bg-card);border-radius:var(--radius-lg);padding:1.5rem;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,0.04);transition:var(--transition)}.match-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}.match-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1rem}.match-icon{width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-size:1.25rem;flex-shrink:0}.match-title{font-size:1.125rem;font-weight:600;color:var(--secondary);flex-grow:1}.match-badge{background:var(--primary-light);color:var(--primary);padding:0.25rem 0.75rem;border-radius:var(--radius-full);font-size:0.75rem;font-weight:600;white-space:nowrap}.match-evidence{margin-top:1rem}.match-evidence li{display:flex;align-items:flex-start;gap:0.75rem;font-size:0.875rem;color:var(--text-secondary);padding:0.5rem 0}.match-evidence li::before{content:'✓';color:var(--primary);font-weight:600;flex-shrink:0}
+        .timeline-section{padding:5rem 0;background:var(--bg-primary)}.timeline{position:relative;max-width:900px;margin:0 auto}.timeline::before{content:'';position:absolute;left:20px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--primary),var(--accent))}.timeline-entry{position:relative;padding-left:60px;padding-bottom:1.5rem}.timeline-entry:last-child{padding-bottom:0}.timeline-marker{position:absolute;left:12px;top:4px;width:18px;height:18px;border-radius:50%;background:var(--primary);border:3px solid var(--bg-primary);box-shadow:0 0 0 2px var(--primary)}.timeline-entry[data-type="education"] .timeline-marker{background:var(--secondary);box-shadow:0 0 0 2px var(--secondary)}.timeline-entry[data-type="certification"] .timeline-marker{background:var(--accent);box-shadow:0 0 0 2px var(--accent)}.timeline-entry.current .timeline-marker{animation:pulse 2s infinite}@keyframes pulse{0%,100%{box-shadow:0 0 0 2px var(--primary)}50%{box-shadow:0 0 0 6px rgba(166,77,77,0.2)}}.timeline-content{background:var(--bg-card);border-radius:var(--radius);padding:1rem 1.5rem;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,0.04)}.timeline-entry.current .timeline-content{border-left:3px solid var(--primary)}.timeline-period{font-size:0.875rem;font-weight:600;color:var(--primary);display:block;margin-bottom:0.25rem}.timeline-title{font-size:1rem;font-weight:600;color:var(--secondary);margin-bottom:0.25rem}.timeline-org{font-size:0.875rem;color:var(--text-secondary)}.timeline-highlights{font-size:0.875rem;color:var(--text-secondary);margin-top:0.5rem}.timeline-highlights li{padding:0.25rem 0;padding-left:1rem;position:relative}.timeline-highlights li::before{content:'•';position:absolute;left:0;color:var(--primary)}
+        .timeline-group-header{position:relative;padding-left:60px;padding-bottom:1.5rem;margin-top:2rem}.timeline-group-header:first-child{margin-top:0}.timeline-group-header h3{font-size:1.25rem;font-weight:700;color:var(--secondary);display:flex;align-items:center;gap:0.75rem}.timeline-group-header .group-icon{width:36px;height:36px;background:var(--bg-secondary);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1rem}.timeline-group-header.cert h3{color:var(--accent)}.timeline-group-header.cert .group-icon{background:rgba(232,184,109,0.15)}.timeline-group-header.edu h3{color:var(--secondary)}.timeline-group-header.edu .group-icon{background:rgba(44,62,80,0.1)}
+        .contact{padding:5rem 0;background:var(--bg-secondary)}.contact-grid{display:grid;grid-template-columns:1fr 400px;gap:3rem;align-items:start}.contact-info h2{font-size:2rem;font-weight:700;color:var(--secondary);margin-bottom:0.5rem}.contact-list{margin-top:2rem}.contact-item{display:flex;align-items:center;gap:1rem;padding:1rem 0;border-bottom:1px solid rgba(0,0,0,0.06)}.contact-item:last-child{border-bottom:none}.contact-icon{width:44px;height:44px;background:var(--primary-light);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;color:var(--primary);flex-shrink:0}.contact-label{font-size:0.875rem;color:var(--text-secondary)}.contact-value{font-weight:500;color:var(--text-primary)}.contact-cta{background:var(--bg-card);border-radius:var(--radius-lg);padding:2rem;box-shadow:var(--shadow-lg);text-align:center}.contact-cta h3{font-size:1.25rem;font-weight:600;color:var(--secondary);margin-bottom:1rem}.contact-cta p{color:var(--text-secondary);margin-bottom:1.5rem}.contact-cta .btn{width:100%}
+        .footer{padding:1.5rem 0;background:var(--bg-dark);text-align:center}.footer p{font-size:0.875rem;color:rgba(255,255,255,0.5)}
+        @media(max-width:1024px){.match-grid{grid-template-columns:repeat(2,1fr)}.stats-grid{grid-template-columns:repeat(2,1fr)}}
+        @media(max-width:768px){.hero-name{font-size:2.5rem}.nav-links{display:none;position:absolute;top:var(--nav-height);left:0;right:0;background:#fff;flex-direction:column;padding:1rem;box-shadow:var(--shadow-lg)}.nav-links.active{display:flex}.nav-toggle{display:flex}.nav-contact{display:none}.hero-bg-image{width:100%;opacity:0.25;mask-image:linear-gradient(to top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%)}.hero-content{text-align:center;max-width:100%}.hero-buttons{justify-content:center}.profile-grid{grid-template-columns:1fr}.profile-image{order:-1;max-width:250px;margin:0 auto 2rem}.match-grid{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}.timeline::before{left:10px}.timeline-entry{padding-left:40px}.timeline-marker{left:2px;width:16px;height:16px}.timeline-group-header{padding-left:40px}}
+    </style>
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">Carsten Wittmann</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#profile">Profil</a></li>
+                <li><a href="#match">Anforderungs-Match</a></li>
+                <li><a href="#timeline">Werdegang</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+            <div class="nav-cta"><span class="nav-contact">+49 151 2262 8639</span></div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menü"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-bg-image"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">🌉 AI Delivery Lead – Remote / Bielefeld</span>
+                <h1 class="hero-name">Carsten Wittmann</h1>
+                <p class="hero-title">AI Delivery Team Lead & Brückenbauer</p>
+                <p class="hero-tagline">32+ Jahre Erfahrung in Banking & Consulting<br>Strategie trifft operative AI-Exzellenz – sofort verfügbar</p>
+                <div class="hero-buttons">
+                    <a href="#match" class="btn btn-primary">Warum ich passe</a>
+                    <a href="#contact" class="btn btn-outline">Kontakt aufnehmen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="profile" class="profile">
+        <div class="container">
+            <div class="profile-grid">
+                <div class="profile-content">
+                    <h2>Profil</h2>
+                    <div class="section-line"></div>
+                    <p class="profile-lead"><strong>TÜV-zertifizierter AI Consultant & Six Sigma Master Black Belt</strong> mit 32+ Jahren Erfahrung in der Finanzbranche – ich bin der Brückenbauer, den Ihr Projekt braucht.</p>
+                    <p class="profile-text">Ich mache Teams startklar: vom Rollen-Setup über agile Workshops bis zur fachlichen Vorbereitung für Data Scientists. Als Six Sigma Master Black Belt habe ich hunderte Verbesserungsprojekte koordiniert, als AI Compliance Consultant kenne ich die technischen und regulatorischen Rahmenbedingungen. Ich verbinde Strategie, Governance und operative Umsetzung – ohne Reibungsverluste zwischen den Ebenen.</p>
+                    <p class="profile-text">Bei der dwpbank habe ich mit meinem Team 3,6 Mio. EUR internen Mehrwert aus 32 Projekten generiert – durch strukturiertes Vorgehen, klare Verantwortlichkeiten und schnelle Operationalisierung. Genau das, was Ihre AI Delivery Teams brauchen.</p>
+                    <div class="profile-meta">
+                        <div class="profile-meta-item"><strong>Verfügbarkeit:</strong> <span>Sofort</span></div>
+                        <div class="profile-meta-item"><strong>Standort:</strong> <span>Remote + Bielefeld (flexibel)</span></div>
+                        <div class="profile-meta-item"><strong>Sprachen:</strong> <span>Deutsch (Muttersprache), Englisch (fließend)</span></div>
+                    </div>
+                </div>
+                <div class="profile-image"><img src="https://waxxdu.de/wp-content/uploads/2026/01/carsten-wittmann-profile.png" alt="Carsten Wittmann"></div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card"><span class="stat-value" data-count="32">0</span><span class="stat-label">Jahre Berufserfahrung</span></div>
+                <div class="stat-card"><span class="stat-value" data-count="32">0</span><span class="stat-label">Six Sigma Projekte gecoacht</span></div>
+                <div class="stat-card"><span class="stat-value" data-count="200">0</span><span class="stat-label">Manager ausgebildet</span></div>
+                <div class="stat-card"><span class="stat-value" data-count="36">0</span><span class="stat-label">× 100.000 EUR interner Mehrwert</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="match" class="match">
+        <div class="container">
+            <div class="section-header">
+                <h2>Anforderungs-Match</h2>
+                <div class="section-line"></div>
+                <p>Alle Kernanforderungen des Projekts decke ich vollständig ab – mit konkreten Nachweisen aus der Praxis.</p>
+            </div>
+            <div class="match-grid">
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🌉</span>
+                        <h3 class="match-title">Brückenbauer Strategie ↔ Delivery</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>AI Portfolio Steering bis hin zu operativer Data-Science-Unterstützung in einem Profil vereint</li>
+                        <li>TÜV-zertifizierter AI Consultant: strategische AI-Transformation und Compliance</li>
+                        <li>Six Sigma Master Black Belt: Brücke zwischen Unternehmenszielen und Projektteams</li>
+                        <li>Erfahrung als Stakeholder-Präsentator auf C-Level (CISO, Compliance, Board)</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🚀</span>
+                        <h3 class="match-title">Team Setup & Koordination</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Aufbau und Leitung von Lean Six Sigma Teams bei dwpbank (bis 32 aktive Projekte parallel)</li>
+                        <li>Rolle, Verantwortlichkeit und agile Arbeitsmodi definiert und eingeführt</li>
+                        <li>Service Transition Workstream von RFP bis Go-live geleitet (80.000+ Devices)</li>
+                        <li>Co-Koordinator eines neuen Trainee-Programms bei dwpbank</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🎯</span>
+                        <h3 class="match-title">Workshop-Moderation & Agile</h3>
+                        <span class="match-badge">95% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>PSM I (Professional Scrum Master) – zertifiziert</li>
+                        <li>NLP Master & wingwave Coach: professionelle Moderations- und Coachingtechniken</li>
+                        <li>200+ Führungskräfte und Prozessexperten in Workshops trainiert</li>
+                        <li>Lean Six Sigma Kick-off-Infos für 700+ Mitarbeiter an mehreren Standorten</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🤖</span>
+                        <h3 class="match-title">Fachliche AI-Unterstützung für POs & Data Scientists</h3>
+                        <span class="match-badge">95% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>AI Use Case Entwicklung, AI Maturity Assessments und AI-Workflows (praktisch erprobt)</li>
+                        <li>Datenverfügbarkeit und Datenqualität geprüft: 200+ Anwendungen analysiert (GDPR/Data Governance)</li>
+                        <li>Data Dictionary Konzeption und Datenanonymisierung (01/2025–10/2025)</li>
+                        <li>AI Compliance Advisory für US AI Startup im EU-Markt (09–11/2025)</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">📊</span>
+                        <h3 class="match-title">Business Cases & KPI-Entwicklung</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Business Case für zusätzliche Kundendienste entwickelt: 3 Mio. EUR Jahresumsatz, ROI 1 Jahr</li>
+                        <li>3,6 Mio. EUR interner Mehrwert aus 32 abgeschlossenen Six Sigma Projekten (dwpbank)</li>
+                        <li>DFSS (Design for Six Sigma): Leading Indicators und Operational KPIs als Kernelement</li>
+                        <li>TCO-Modelle und Finanzkalkulationen für Migrationsprojekte (80.000+ Endgeräte)</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">📈</span>
+                        <h3 class="match-title">Reporting & Fortschrittsmessung</h3>
+                        <span class="match-badge">95% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Bi-Weekly Management Reports für Lean Six Sigma Programme entwickelt</li>
+                        <li>Excel-Statistik- und Grafiksoftware (Add-in) für Prozessmonitoring eigenentwickelt</li>
+                        <li>Web-basierte Projektdatenbank inkl. Setup, Rollen, Rollout und Training eingeführt</li>
+                        <li>Neue Risikoreports und -policies für Großbank entwickelt und eingeführt</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🛡️</span>
+                        <h3 class="match-title">Compliance, Change & Stakeholder</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>CISO-Support: Audit-Framework entwickelt, erste EZB Cybersecurity-Prüfung begleitet</li>
+                        <li>Data Governance Sub-Projektleitung mit 2nd-Line-of-Defense-Anforderungen</li>
+                        <li>Zertifizierter Datenschutzbeauftragter mit GDPR-Readiness-Programmen</li>
+                        <li>Change Management Erfahrung aus über 10 großen Transformationsprojekten</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🗂️</span>
+                        <h3 class="match-title">Dokumentation & Detailanalysen</h3>
+                        <span class="match-badge">95% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Business Attribute Dokumentation und Data Lineage in komplexen Risikomanagementsystemen</li>
+                        <li>100+ Löschkonzepte erstellt, 250+ Makrolösungen bewertet</li>
+                        <li>Anforderungsdokumentation für 2nd Line of Defense und regulatorische Anfragen</li>
+                        <li>BPMN-Tool-Selektion und Prozessdokumentationsansatz für Ratingagentur</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">⚡</span>
+                        <h3 class="match-title">Sofortiger Start & Remote-Fähigkeit</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Sofort verfügbar – keine Kündigungsfristen als Freelancer</li>
+                        <li>Remote-first erprobt: mehrere Projekte vollständig remote durchgeführt</li>
+                        <li>Flexible Vor-Ort-Präsenz im Raum Bielefeld problemlos möglich</li>
+                        <li>Volle 5 Tage/Woche Kapazität verfügbar</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Beruflicher Werdegang</h2>
+                <div class="section-line"></div>
+                <p>Meine komplette Karriere – von heute bis zum Start.</p>
+            </div>
+            <div class="timeline">
+
+                <div class="timeline-group-header">
+                    <h3><span class="group-icon">💼</span> Berufserfahrung</h3>
+                </div>
+
+                <div class="timeline-entry current" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2024 – heute</span>
+                        <h3 class="timeline-title">Expert for AI Compliance and Data Privacy</h3>
+                        <p class="timeline-org">Koerting Institut, Bad Homburg</p>
+                        <ul class="timeline-highlights">
+                            <li>Training zu Data Governance, Compliance und Datenschutz</li>
+                            <li>AI Compliance und Datenschutz für TÜV-Zertifizierungskurse</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry current" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">09/2025 – 11/2025</span>
+                        <h3 class="timeline-title">GDPR Compliance Consulting für US AI Startup</h3>
+                        <p class="timeline-org">waXXdu! Carsten Wittmann, Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>DSGVO-Compliance-Beratung für AI-Produkt beim EU-Markteintritt</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry current" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">01/2025 – 10/2025</span>
+                        <h3 class="timeline-title">Data Governance Project Support</h3>
+                        <p class="timeline-org">waXXdu! Carsten Wittmann, Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>Konzeption und Datenvorbereitung für neues Data Dictionary</li>
+                            <li>Datenanonymisierung: Anforderungsanalyse und Testing</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">11/2022 – 12/2024</span>
+                        <h3 class="timeline-title">Data Governance für Risikomanagement-Applikation</h3>
+                        <p class="timeline-org">waXXdu! Carsten Wittmann, Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>Sub-Projektleitung Data Governance und Datenschutz</li>
+                            <li>Anforderungs- und Qualitätsdefinition für 2nd Line of Defense</li>
+                            <li>Business Attribute Dokumentation und Data Lineage</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">04/2020 – 02/2022</span>
+                        <h3 class="timeline-title">Global Virtual Desktop Rollout – Service Transition Lead</h3>
+                        <p class="timeline-org">Tier-1-Bank (via waXXdu!), Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>Leitung Service Transition Workstream ab RFP-Phase</li>
+                            <li>Migrationsplan für 80.000+ Endgeräte entwickelt</li>
+                            <li>TCO-Berechnungen und Finanzmodelle</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2015 – 2017</span>
+                        <h3 class="timeline-title">CISO Support</h3>
+                        <p class="timeline-org">Großbank (via waXXdu!), Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>Neues Audit-Framework entwickelt</li>
+                            <li>Erste EZB Cyber Security Prüfung begleitet</li>
+                            <li>Neue Risikopolicies und -reports eingeführt</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2009 – 2012</span>
+                        <h3 class="timeline-title">Head of Process Excellence / Expert BPM</h3>
+                        <p class="timeline-org">Deutsche WertpapierService Bank AG, Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>Lean Six Sigma implementiert und operativ geleitet</li>
+                            <li>High-Performance-Team aus internen Prozessexperten (Black Belts) aufgebaut</li>
+                            <li>3,6 Mio. EUR interner Mehrwert aus 32 abgeschlossenen Projekten</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">1999 – 2007</span>
+                        <h3 class="timeline-title">Master Black Belt / Black Belt / Key Account Manager</h3>
+                        <p class="timeline-org">Xchanging / etb european transaction bank, Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>Business Case für Kundendienste: 3 Mio. EUR Jahresumsatz, ROI 1 Jahr</li>
+                            <li>Green- und Black-Belt-Training für DE, UK und Indien</li>
+                            <li>Lean Six Sigma Info-Sessions für 700+ Mitarbeiter</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-group-header cert">
+                    <h3><span class="group-icon">🏆</span> Zertifizierungen</h3>
+                </div>
+
+                <div class="timeline-entry" data-type="certification">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2024</span>
+                        <h3 class="timeline-title">TÜV-Rheinland Certified AI Consultant</h3>
+                        <p class="timeline-org">TÜV Rheinland</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="certification">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2019</span>
+                        <h3 class="timeline-title">Certified Data Protection Officer (Datenschutzbeauftragter)</h3>
+                        <p class="timeline-org">LUTOP Datenschutz Akademie GmbH</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="certification">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2020</span>
+                        <h3 class="timeline-title">Professional Scrum Master (PSM I)</h3>
+                        <p class="timeline-org">scrum.org</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="certification">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2005 – 2007</span>
+                        <h3 class="timeline-title">Six Sigma Master Black Belt (DMAIC + DFSS)</h3>
+                        <p class="timeline-org">Xchanging / UMS GmbH</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="certification">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2012 – 2016</span>
+                        <h3 class="timeline-title">NLP Master & wingwave Coach</h3>
+                        <p class="timeline-org">fresh academy / Neuro Resonanz Akademie</p>
+                    </div>
+                </div>
+
+                <div class="timeline-group-header edu">
+                    <h3><span class="group-icon">🎓</span> Ausbildung</h3>
+                </div>
+
+                <div class="timeline-entry" data-type="education">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">1991 – 1993</span>
+                        <h3 class="timeline-title">Betriebswirtschaftslehre (Studium)</h3>
+                        <p class="timeline-org">Universität Marburg</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="education">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">1989 – 1991</span>
+                        <h3 class="timeline-title">Bankkaufmann (Ausbildung)</h3>
+                        <p class="timeline-org">WestLB Düsseldorf</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Kontakt</h2>
+                    <div class="section-line"></div>
+                    <p class="profile-text">Ich freue mich auf Ihre Nachricht und stehe für ein erstes Gespräch sofort zur Verfügung.</p>
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div>
+                            <div><div class="contact-label">E-Mail</div><div class="contact-value">cw@waxxdu.de</div></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></div>
+                            <div><div class="contact-label">Telefon</div><div class="contact-value">+49 151 2262 8639</div></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+                            <div><div class="contact-label">Standort</div><div class="contact-value">Frankfurt am Main · Remote · Bielefeld flexibel</div></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg></div>
+                            <div><div class="contact-label">Verfügbarkeit</div><div class="contact-value">Sofort · 5 Tage/Woche · 11 Monate+</div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Interesse geweckt?</h3>
+                    <p>Lassen Sie uns über die AI Delivery Team Lead Position sprechen.</p>
+                    <a href="mailto:cw@waxxdu.de?subject=AI%20Delivery%20Team%20Lead%20%E2%80%93%20Anfrage" class="btn btn-primary">E-Mail schreiben</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer"><div class="container"><p>© 2026 Carsten Wittmann · CV-Präsentation AI Delivery Team Lead</p></div></footer>
+
+    <script>
+        const nav=document.getElementById('nav');window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>50)});
+        const toggle=document.getElementById('navToggle'),links=document.getElementById('navLinks');toggle.addEventListener('click',()=>{links.classList.toggle('active')});links.querySelectorAll('a').forEach(l=>{l.addEventListener('click',()=>{links.classList.remove('active')})});
+        document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){e.preventDefault();const t=document.querySelector(this.getAttribute('href'));if(t){const o=80,p=t.getBoundingClientRect().top+window.pageYOffset-o;window.scrollTo({top:p,behavior:'smooth'})}})});
+        const animateValue=(el,end)=>{const d=1500,s=performance.now(),tick=n=>{const e=n-s,p=Math.min(e/d,1),v=1-Math.pow(1-p,3);el.textContent=Math.floor(v*end);p<1?requestAnimationFrame(tick):el.textContent=end};requestAnimationFrame(tick)};
+        const obs=new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){const el=en.target,c=parseInt(el.dataset.count)||0;animateValue(el,c);obs.unobserve(el)}})},{threshold:0.5});
+        document.querySelectorAll('[data-count]').forEach(el=>obs.observe(el));
+    </script>
+</body>
+</html>
